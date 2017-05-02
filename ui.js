@@ -11,7 +11,7 @@
 module.exports = function (options) {
 
   // Configuration
-  const engine = options.engine(options.engineOptions);
+  const engine = options.engine;
   const client = null; // TODO
 
   // Initialization script
