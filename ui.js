@@ -12,7 +12,7 @@ module.exports = function (options) {
 
   // Configuration
   const engine = options.engine;
-  const client = null; // TODO
+  // const client = options.client;
 
   // Initialization script
   engine.makeShell();

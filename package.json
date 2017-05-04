@@ -4,7 +4,8 @@
   "description": "Client for the Livre project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lcneves/livre-client/issues"
   },
-  "homepage": "https://github.com/lcneves/livre-client#readme"
+  "homepage": "https://github.com/lcneves/livre-client#readme",
+  "devDependencies": {
+    "eslint": "latest"
+  }
 }

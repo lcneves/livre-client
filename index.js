@@ -11,8 +11,8 @@
 module.exports = function (options) {
 
   // Configuration
-  const client = null; // TODO
-  const ui = require('./ui.js')(options);
+  options.client = require('client.js');
+  require('./ui.js')(options);
 
 };
 
