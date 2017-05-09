@@ -18,6 +18,20 @@
   },
   "homepage": "https://github.com/lcneves/livre-client#readme",
   "devDependencies": {
-    "eslint": "latest"
+    "eslint": "latest",
+    "babel-preset-env": "latest",
+    "babelify": "latest"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "env"
+          ]
+        }
+      ]
+    ]
   }
 }
