@@ -11,7 +11,7 @@
 module.exports = function (options) {
 
   // Configuration
-  options.client = require('client.js');
+  options.client = require('./client.js');
   require('./ui.js')(options);
 
 };
